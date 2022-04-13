@@ -1,0 +1,8 @@
+.DS_Store
+*~
+.import/
+.mono/
+logs/
+.vs/Projekt1/xs/UserPrefs.xml
+mono_crash.*.json
+.vs/strategy2/xs/project-cache/*
