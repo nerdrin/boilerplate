@@ -63,6 +63,7 @@ jobs:
         mv templates/* ${TEMPLATES_DIR}
         mkdir -p ${BUILD_DIR}
         Godot_mono.app/Contents/MacOS/Godot --path strategy --export "${PRESET}" "../${BUILD_DIR}/${FILENAME}"
+        
     # - uses: Apple-Actions/upload-testflight-build@master
     #   with:
     #     app-path: ${BUILD_DIR}/${FILENAME}
